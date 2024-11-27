@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Blog</title>
+
+    <!--
+    - favicon
+-->
+    <link rel="shortcut icon" href="images/ejc.png" type="image/x-icon" />
+
+    <!--
+    - custom css link
+-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--
+    - google font link
+-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body class="light-theme">
+    <!--
+    - #HEADER
+-->
+
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#">
+                    <img src="images/ejc.png" alt="SimpleBlog logo" width="250" class="logo-light" />
+                    <img src="images/ejc.png" alt="SimpleBlog logo" width="250" class="logo-dark" />
+                </a>
+
+                <div class="btn-group">
+                    <button class="theme-btn theme-btn-mobile light">
+                        <ion-icon name="moon" class="moon"></ion-icon>
+                        <ion-icon name="sunny" class="sun"></ion-icon>
+                    </button>
+
+                    <button class="nav-menu-btn">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </button>
+                </div>
+
+                <div class="flex-wrapper">
+                    <ul class="desktop-nav">
+                        <li>
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link">About Me</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <button class="theme-btn theme-btn-desktop light">
+                        <ion-icon name="moon" class="moon"></ion-icon>
+                        <ion-icon name="sunny" class="sun"></ion-icon>
+                    </button>
+                </div>
+
+                <div class="mobile-nav">
+                    <button class="nav-close-btn">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+
+                    <div class="wrapper">
+                        <p class="h3 nav-title">Main Menu</p>
+
+                        <ul>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">About Me</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p class="h3 nav-title">Topics</p>
+
+                        <ul>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Database</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Accessibility</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Web Performance</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!--
+- #HERO SECTION
+    -->
+
+        <div class="hero">
+            <div class="container">
+                <div class="left">
+                    <h1 class="h1">
+                        <b>Emilio Joseph&nbsp;Calma</b>. <br /> Aspiring Software Engineer
+                    </h1>
+
+                    <p class="h3">
+                        Specializing in <abbr title="Accessibility">Software</abbr>
+                        Development
+                    </p>
+
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-primary">Contact Me</a>
+                        <a href="#" class="btn btn-secondary">About Me</a>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="pattern-bg"></div>
+                    <div class="img-box">
+                        <img src="images/sanji.png" alt="me" class="hero-img" />
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="container">
+                <!--
+        - BLOG SECTION
+        -->
+
+                <div class="blog">
+                    <h2 class="h2">My Projects</h2>
+
+                    <div class="blog-card-group">
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="images/a6.jpg"
+                                    alt="Building website using HTML, CSS, and JavaScript" width="250"
+                                    class="blog-banner-img" />
+                            </div>
+
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">Frontend Website</button>
+
+                                <h3>
+                                    <a href="https://h41s3.github.io/Pet-Pals/home.html" class="h3">
+                                        PetPals: Your Companion in Finding Furry Friends - Frontend Website Project
+                                    </a>
+                                </h3>
+
+                                <p class="blog-text">
+                                    Did this for my client. Built by HTML, CSS, and JavaScript.
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="images/2.png" alt="Me" width="50" />
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <a href="#" class="h4">Emilio Joseph Calma</a>
+
+                                        <p class="text-sm">
+                                            <time datetime=""></time>
+                                            <span class="separator"></span>
+                                            <ion-icon name="time-outline"></ion-icon>
+                                            <time datetime="PT3M">...</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="images/speedtype.png" alt="Speed Typing Web Application"
+                                    width="250" class="blog-banner-img" />
+                            </div>
+
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">Web Application</button>
+
+                                <h3>
+                                    <a href="https://h41s3.github.io/FastTyping/st.html" class="h3">TypeMaster: Revolutionizing Typing Speed with a Web App</a>
+                                </h3>
+
+                                <p class="blog-text">
+                                    Web app that boosts your typing skills with precision and speed. Say hello to faster, more accurate typing.
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="images/2.png" alt="Me" width="50" />
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <a href="#" class="h4">Emilio Joseph Calma</a>
+
+                                        <p class="text-sm">
+                                            <time datetime=""></time>
+                                            <span class="separator"></span>
+                                            <ion-icon name="time-outline"></ion-icon>
+                                            <time datetime="PT2M">...</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="images/jjk.png" alt="Accessibility Tips for Web Developers"
+                                    width="250" class="blog-banner-img" />
+                            </div>
+
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">Login Form</button>
+
+                                <h3>
+                                    <a href="https://h41s3.github.io/Responsive-Login-Form/new.html" class="h3">Responsive Login Form</a>
+                                </h3>
+
+                                <p class="blog-text">
+                                    Responsive login form: HTML/CSS design that adjusts smoothly across devices.
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="images/2.png" alt="Me" width="50" />
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <a href="#" class="h4">Emilio Joseph Calma</a>
+
+                                        <p class="text-sm">
+                                            <time datetime=""></time>
+                                            <span class="separator"></span>
+                                            <ion-icon name="time-outline"></ion-icon>
+                                            <time datetime="PT4M">...</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="images/skysoarer.png"
+                                    alt="Inspired by Flappy Bird Game" width="250"
+                                    class="blog-banner-img" />
+                            </div>
+
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">Web Application</button>
+
+                                <h3>
+                                    <a href="https://h41s3.github.io/Sky-Soarer/" class="h3">Sky Soarer</a>
+                                </h3>
+
+                                <p class="blog-text">
+                                "Sky Soarer" offers a nostalgic twist on Flappy Bird's gameplay. It aims to evoke fond memories while providing a fresh experience.
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="images/2.png" alt="Me" width="50" />
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <a href="#" class="h4">Emilio Joseph Calma</a>
+
+                                        <p class="text-sm">
+                                            <time datetime="2021-11-20"></time>
+                                            <span class="separator"></span>
+                                            <ion-icon name="time-outline"></ion-icon>
+                                            <time datetime="PT4M">...</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="images/cuisinefy.png"
+                                    alt="" width="250"
+                                    class="blog-banner-img" />
+                            </div>
+
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">Web Application</button>
+
+                                <h3>
+                                    <a href="https://bit.ly/4ewUmA2" class="h3">Cuisinefy</a>
+                                </h3>
+
+                                <p class="blog-text">
+                                    Find your perfect recipe in seconds with Cuisinefy. Fast, easy, and delicious - start your cooking adventure now and make every meal a delight!
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="images/2.png" alt="Me" width="50" />
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <a href="#" class="h4">Emilio Joseph Calma</a>
+
+                                        <p class="text-sm">
+                                            <time datetime=""></time>
+                                            <span class="separator"></span>
+                                            <ion-icon name="time-outline"></ion-icon>
+                                            <time datetime="PT3M">...</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="images/pong.png"
+                                    alt=""
+                                    width="250" class="blog-banner-img" />
+                            </div>
+
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">Python</button>
+
+                                <h3>
+                                    <a href="" class="h3">Pong Game</a>
+                                </h3>
+
+                                <p class="blog-text">
+                                    This is the first python game that i've created.
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="images/2.png" alt="Me" width="50" />
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <a href="#" class="h4">Emilio Joseph Calma</a>
+
+                                        <p class="text-sm">
+                                            <time datetime=""></time>
+                                            <span class="separator"></span>
+                                            <ion-icon name="time-outline"></ion-icon>
+                                            <time datetime="PT7M">...</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="images/catshooter.jpeg"
+                                    alt="Survey" width="250"
+                                    class="blog-banner-img" />
+                            </div>
+
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">Web Page</button>
+
+                                <h3>
+                                    <a href="" class="h3">Monsters Shooter</a>
+                                </h3>
+
+                                <p class="blog-text">
+                                    Developed a 2D arcade-style game using Python and Pygame where players control a cat that shoots laser to defeat enemy monsters.
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="images/2.png" alt="Me" width="50" />
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <a href="#" class="h4">Emilio Joseph Calma</a>
+
+                                        <p class="text-sm">
+                                            <time datetime=""></time>
+                                            <span class="separator"></span>
+                                            <ion-icon name="time-outline"></ion-icon>
+                                            <time datetime="PT5M">...</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="images/swift.png"
+                                    alt="Snake Game" width="250"
+                                    class="blog-banner-img" />
+                            </div>
+
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">Swift</button>
+
+                                <h3>
+                                    <a href="" class="h3">Cuisinefy</a>
+                                </h3>
+
+                                <p class="blog-text">
+                                    Developed a recipe app using Swift that integrates with an external API to fetch and display recipes based on user input.
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="images/2.png" alt="Me" width="50" />
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <a href="#" class="h4">Emilio Joseph Calma</a>
+
+                                        <p class="text-sm">
+                                            <time datetime=""></time>
+                                            <span class="separator"></span>
+                                            <ion-icon name="time-outline"></ion-icon>
+                                            <time datetime="PT5M">...</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="images/speechtext.jpg"
+                                    alt="speech-text" width="250"
+                                    class="blog-banner-img" />
+                            </div>
+
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">Python</button>
+
+                                <h3>
+                                    <a href="" class="h3">Speech-to-Text Converter</a>
+                                </h3>
+
+                                <p class="blog-text">
+                                    This project implements a speech-to-text converter using Python and popular libraries such as SpeechRecognition. It enables users to convert spoken words into written text
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="images/2.png" alt="Me" width="50" />
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <a href="#" class="h4">Emilio Joseph Calma</a>
+
+                                        <p class="text-sm">
+                                            <time datetime=""></time>
+                                            <span class="separator"></span>
+                                            <ion-icon name="time-outline"></ion-icon>
+                                            <time datetime="PT7M">...</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-card">
+                            <div class="blog-card-banner">
+                                <img src="images/handtracking.jpg"
+                                    alt="Track your hand" width="250"
+                                    class="blog-banner-img" />
+                            </div>
+
+                            <div class="blog-content-wrapper">
+                                <button class="blog-topic text-tiny">Python</button>
+
+                                <h3>
+                                    <a href="" class="h3">Handtracker</a>
+                                </h3>
+
+                                <p class="blog-text">
+                                    This Python project utilizes computer vision techniques to enable real-time hand tracking and count fingers.
+                                </p>
+
+                                <div class="wrapper-flex">
+                                    <div class="profile-wrapper">
+                                        <img src="images/2.png" alt="Me" width="50" />
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <a href="#" class="h4">Emilio Joseph Calma</a>
+
+                                        <p class="text-sm">
+                                            <time datetime=""></time>
+                                            <span class="separator"></span>
+                                            <ion-icon name="time-outline"></ion-icon>
+                                            <time datetime="PT4M">...</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="btn load-more">Load More</button>
+                </div>
+
+                <!--
+        - ASIDE
+        -->
+
+                <div class="aside">
+                    <div class="topics">
+                        <h2 class="h2">Centered</h2>
+
+                        <a href="#" class="topic-btn">
+                            <div class="icon-box">
+                                <ion-icon name="logo-microsoft"></ion-icon>
+                            </div>
+
+                            <p>Software Development</p>
+                        </a>
+
+                        <a href="#" class="topic-btn">
+                            <div class="icon-box">
+                                <ion-icon name="logo-ionic"></ion-icon>
+                                <ion-icon name="logo-ionic" size="large"></ion-icon>
+                                <ion-icon name="logo-ionic" color="primary"></ion-icon>
+                                <ion-icon name="logo-ionic" size="large" color="primary"></ion-icon>
+                            </div>
+
+                            <p>C++, Python, SQL, Swift, and JavaScript</p>
+                        </a>
+
+                        <a href="#" class="topic-btn">
+                            <div class="icon-box">
+                                <ion-icon name="rocket-outline"></ion-icon>
+                            </div>
+
+                            <p>Software Engineering</p>
+                        </a>
+                    </div>
+
+                    <div class="tags">
+                        <h2 class="h2">Tags</h2>
+
+                        <div class="wrapper">
+                            <button class="hashtag">#python</button>
+                            <button class="hashtag">#c++</button>
+                            <button class="hashtag">#javascript</button>
+                            <button class="hashtag">#html and css</button>
+                            <button class="hashtag">#swift</button>
+                            <button class="hashtag">#frontend</button>
+                            <button class="hashtag">#software dev</button>
+                            <button class="hashtag">#ios dev</button>
+                        </div>
+                    </div>
+
+                    <div class="contact">
+                        <h2 class="h2">Get in touch</h2>
+
+                        <div class="wrapper">
+                            <p>
+                                Send me a message. I'm all ears!
+                            </p>
+
+                            <ul class="social-link">
+                                <li>
+                                    <a href="https://www.instagram.com/_____iejc/" class="icon-box discord">
+                                        <ion-icon name="logo-instagram"></ion-icon>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.linkedin.com/in/emilio-joseph-calma-ba21a129a/" class="icon-box twitter">
+                                        <ion-icon name="logo-linkedin"></ion-icon>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.facebook.com/HaiseSsky" class="icon-box facebook">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="newsletter">
+                        <h2 class="h2">Newsletter</h2>
+
+                        <div class="wrapper">
+                            <p>
+                                To be among the first to know about the newest developments, sign up for my newsletter.
+                            </p>
+
+                            <form action="#">
+                                <input type="email" name="email" placeholder="Email Address" required />
+
+                                <button type="submit" class="btn btn-primary">
+                                    Subscribe
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--
+    - #FOOTER
+-->
+
+    <footer>
+        <div class="container">
+            <div class="wrapper">
+                <a href="#" class="footer-logo">
+                    <img src="images/ejc.png" alt="SimpleBlog Logo" width="250" class="logo-light" />
+                    <img src="images/ejc.png" alt="SimpleBlog Logo" width="250" class="logo-dark" />
+                </a>
+
+                <p class="footer-text">
+                    I am deeply passionate about advancing my expertise in the field of Software Development. I am dedicated to continually expanding my knowledge and honing my skills in these area, driven by a commitment to excellence and innovation.
+                </p>
+            </div>
+
+            <div class="wrapper">
+                <p class="footer-title">Quick Links</p>
+
+                <ul>
+                    <li>
+                        <a href="#" class="footer-link">About Me</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="wrapper">
+                <p class="footer-title">Address</p>
+
+                <ul>
+                    <li>
+                        <a href="#" class="footer-link">Melbourne, Victoria, Australia</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="copyright">&copy; Copyright 2024 <a href="#">EJC</a></p>
+    </footer>
+
+    <!--
+    - custom js link
+-->
+    <script src="script.js"></script>
+
+    <!--
+    - ionicon link
+-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> <!--script nomodule (i removed the nomodule to make my light and dark mode works when i publish it)-->
+</body>
+
+</html>
