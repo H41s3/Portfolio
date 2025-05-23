@@ -6,6 +6,8 @@ import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Aside from './components/Aside';
 import Footer from './components/Footer';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -29,8 +31,8 @@ function App() {
                     <Aside />
                   </>
                 } />
-                <Route path="/about" element={<div>About Page</div>} />
-                <Route path="/contact" element={<div>Contact Page</div>} />
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
               </Routes>
             </div>
           </div>
